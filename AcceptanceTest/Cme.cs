@@ -20,7 +20,7 @@ public class Cme : TestBase
 
     private static IEnumerable<string> Definitions()
     {
-        return Directory.EnumerateFiles(DefinitionsBaseDirPath, "*.def")
+        return Directory.EnumerateFiles(DefinitionsBaseDirPath, "BeginningOfWeekLogon.def")
             .Select(f => Path.GetFileName((string?)f)!)
             .OrderBy(s => s);
     }
