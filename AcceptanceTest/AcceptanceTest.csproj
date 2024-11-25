@@ -33,4 +33,10 @@
     <None Include="..\spec\**" CopyToOutputDirectory="PreserveNewest" LinkBase="spec" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Cme.cs">
+      <Link>definitions\Cme.cs</Link>
+    </Compile>
+  </ItemGroup>
+
 </Project>
