@@ -50,6 +50,18 @@ To run a specific suite, use ``--filter``, e.g.
 
 AcceptanceTest logs are output to `bin/Debug/net6.0/log`.
 
+CME Acceptance Tests
+--------------
+To run only the CME ATs:
+* `dotnet test --filter CmeTest AcceptanceTest`
+
+CME test scenario specs:
+* [Beginning of Week Logon](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/LogonBeg.html)
+* [Bi-Directional Resend Request](https://www.cmegroup.com/tools-information/webhelp/acp-dc-btec/Content/BiDirRes.html)
+* [Logon with Market Segment ID](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/LogonMarkSeg.html) 
+* [Mid-Week Key Rotation](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/DCCGWKeyRot.html) 
+* [Process Real-Time Messages During Resend Response](https://www.cmegroup.com/tools-information/webhelp/acp-dc-btec/Content/RealTime.html)
+
 
 Credits
 -------
