@@ -55,12 +55,12 @@ CME Acceptance Tests
 To run only the CME ATs:
 * `dotnet test --filter CmeTest AcceptanceTest`
 
-CME test scenario specs:
-* [Beginning of Week Logon](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/LogonBeg.html)
-* [Bi-Directional Resend Request](https://www.cmegroup.com/tools-information/webhelp/acp-dc-btec/Content/BiDirRes.html)
-* [Logon with Market Segment ID](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/LogonMarkSeg.html) 
-* [Mid-Week Key Rotation](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/DCCGWKeyRot.html) 
-* [Process Real-Time Messages During Resend Response](https://www.cmegroup.com/tools-information/webhelp/acp-dc-btec/Content/RealTime.html)
+CME test scenario specs from [Belvedere Estimate](https://docs.google.com/document/d/1Z1RAcI8mKte8rwjsmdguLvdy2UL9rqxmbNTB2GOZCTg/edit?pli=1&tab=t.0):
+* [2./12. Mid-Week Key Rotation](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/DCCGWKeyRot.html)
+* [4. Beginning of Week Logon](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/LogonBeg.html)
+* [8. Bi-Directional Resend Request](https://www.cmegroup.com/tools-information/webhelp/acp-dc-btec/Content/BiDirRes.html)
+* [9. Process Real-Time Messages During Resend Response](https://www.cmegroup.com/tools-information/webhelp/acp-dc-btec/Content/RealTime.html)
+* [11. Logon with Market Segment ID](https://www.cmegroup.com/tools-information/webhelp/autocert-drop-copy4/Content/LogonMarkSeg.html)
 
 
 Credits
