@@ -1,3 +1,21 @@
+# Belvedere QF/n Fork
+
+This repo contains extensions for CME support, such as encapsulated messages and enhanced resend.
+
+We have agreed to give Belvedere some exclusivity before these features will be merged into the public project.
+
+**Note: This is a "manual" fork of QF/n.  However, _all the commit IDs are changed!_**
+
+(QF/n has some 100MB files in its history from long ago, and Github doesn't allow pushing
+large files anymore.  I had to scrub those files from the git history in order to push to this repo.)
+
+**Because of this, when it comes time to merge these features into the main QF/n, we'll 
+need to manually port those changes instead of being able to merge git branches.**
+
+
+----------------------------------------------------------------
+
+
 [![QuickFIX/N][1]](http://quickfixn.org)
 
 ![Build status](https://github.com/connamara/quickfixn/actions/workflows/dotnet.yml/badge.svg)
